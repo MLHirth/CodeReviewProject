@@ -1,0 +1,29 @@
+[
+    {
+        "username": "User123",
+        "code": "System.in //Input of a system",
+        "language": "java",
+        "score": 97,
+        "runtime": 0.0465,
+        "memory": 84,
+        "timestamp": "2025-02-05T23:12:34.961630"
+    },
+    {
+        "username": "User123",
+        "code": "System.in //Input of a system",
+        "language": "java",
+        "score": 97,
+        "runtime": 0.0522,
+        "memory": 96,
+        "timestamp": "2025-02-05T23:14:24.563610"
+    },
+    {
+        "username": "User123",
+        "code": "System.in //Input of a system",
+        "language": "java",
+        "score": 97,
+        "runtime": 0.0392,
+        "memory": 96,
+        "timestamp": "2025-02-05T23:15:20.518440"
+    }
+]

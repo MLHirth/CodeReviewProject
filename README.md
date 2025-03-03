@@ -32,9 +32,7 @@ To install and run CodeReviewProject using Docker, follow these steps:
    Open your browser and navigate to `http://localhost:8000`.
 
 ## Usage
-Watch the following video to see how to use CodeReviewProject:
-
-(VIDEO WILL BE ADDED SOON...)
+Watch the following gif to see how to use CodeReviewProject:
 
 ![Usage Video](ReadMEExample.gif)
 

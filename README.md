@@ -36,7 +36,7 @@ Watch the following video to see how to use CodeReviewProject:
 
 (VIDEO WILL BE ADDED SOON...)
 
-![Usage Video](insert-video-url-here)
+![Usage Video](ReadMEExample.gif)
 
 ## Features
 - Automated code suggestions

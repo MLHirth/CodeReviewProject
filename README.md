@@ -39,9 +39,7 @@ Watch the following gif to see how to use CodeReviewProject:
 
 ## Features
 - Automated code suggestions
-- Inline commenting on pull requests
-- Version control system (Git) integration
-- Customizable review templates
+- Leaderboard system with score points
 - Detailed analytics on code quality
 
 ## Contributing

@@ -33,8 +33,9 @@ To install and run CodeReviewProject using Docker, follow these steps:
 
 ## Usage
 Watch the following gif to see how to use CodeReviewProject:
-
-![Usage Video](ReadMEExample.gif)
+<p align="center">
+  <img src="ReadMEExample.gif" alt="Usage Demo">
+</p>
 
 ## Features
 - Automated code suggestions

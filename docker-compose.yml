@@ -7,16 +7,10 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8081:80"
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.frontend.rule=Host(`codereview.mhirth.com`)"
-      - "traefik.http.routers.frontend.entrypoints=web"
-      - "traefik.http.services.frontend.loadbalancer.server.port=80"
     depends_on:
       - backend
     networks:
-      traefik_network:
-        driver: bridge  # Automatically created
+      - app_network
 
   backend:
     build:
@@ -24,13 +18,9 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    labels:
-      - "traefik.enable=false"  # No need to expose backend via Traefik
     networks:
       - app_network
 
 networks:
   app_network:
     driver: bridge
-  traefik_network:
-    external: true  # Use the existing Traefik network

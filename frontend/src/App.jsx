@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
 
-const API_URL = "http://localhost:8000"
+const API_URL = "http://codereview-project-c8yetn-backend-1"
 
 export default function App() {
     const [username, setUsername] = useState("");
